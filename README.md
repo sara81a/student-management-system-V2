@@ -30,5 +30,5 @@ Before you begin, ensure you have the following installed:
 3. Run the application:
    `docker-compose up`
 4. Access the application in your browser at:
-   `http://localhost:8080`
+   `http://localhost:8080/students`
 
