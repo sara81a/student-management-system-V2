@@ -35,7 +35,7 @@ Before you begin, ensure you have the following installed:
 1. **Build the Docker Images**
 ```bash
 docker-compose build
-2. Start the Application
+1. **start**
 docker-compose up
 
 
