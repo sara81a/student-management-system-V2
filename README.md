@@ -33,10 +33,9 @@ Before you begin, ensure you have the following installed:
    
 1. **Build the Docker Images**
 ```bash
-2. **Build the Docker Images**
-```bash
 docker-compose build
-
+---
+2. **Build the Docker Images**
 
 
 
