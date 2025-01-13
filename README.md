@@ -25,6 +25,7 @@ Before you begin, ensure you have the following installed:
 ### **Setup**
 
 1. Clone the repository:
+```bash
    git clone https://github.com/<your-username>/student-management-system.git
    cd student-management-system
 
@@ -35,7 +36,7 @@ Before you begin, ensure you have the following installed:
 ```bash
 docker-compose build
 ---
-2. **Build the Docker Images**
+
 
 
 
