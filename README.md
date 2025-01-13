@@ -32,14 +32,15 @@ Before you begin, ensure you have the following installed:
 ---
    ### **Run the Application**
    
-### **1. Build the Docker Images**
-To build the required Docker images, run the following command in your terminal:
+1. **Build the Docker Images**
 ```bash
 docker-compose build
-### **2. Start the Application**
-Start the application and its services using the following command:
-```bash
-docker-compose build
+2. Start the Application
+docker-compose up
+
+
+
+
 
 
 
