@@ -30,12 +30,8 @@ Before you begin, ensure you have the following installed:
    cd student-management-system
 
 ---
-   ### **Run the Application**
-   
-1. **Build the Docker Images**
-```bash
-docker-compose build
----
+1. jaja
+2.dddd
 
 
 
