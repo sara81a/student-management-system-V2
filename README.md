@@ -16,7 +16,7 @@ This is a web application built using **Java**, **Spring Boot**, **Thymeleaf**, 
 
 ---
 
-## 🚀 **Steps to Run the Application**
+##  **Steps to Run the Application**
 
 ### **Prerequisites**
 Before you begin, ensure you have the following installed:
@@ -32,8 +32,17 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/<your-username>/student-management-system.git
    cd student-management-system
 
+   2.
+---
    ### **Run the Application**
    
+   1. Build the Docker images:
+   Run the following command to build the required Docker images:
+```bash
+docker-compose build
+ 2. Start the Application
+3. Access the Application
+
 
 
 
