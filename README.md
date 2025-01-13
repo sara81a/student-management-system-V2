@@ -32,3 +32,7 @@ Before you begin, ensure you have the following installed:
 4. Access the application in your browser at:
    `http://localhost:8080/students`
 
+---
+
+### **Note*
+- The .env file contains sensitive credentials and should be included in .gitignore However, it has been intentionally pushed here for easily in running the application.
