@@ -8,7 +8,7 @@ WORKDIR /app
 #COPY pom.xml .
 #COPY src ./src
 
-#kkkkkkkkkkkmmmmsjjejhehudhuhd
+
 
 # Copy the entire project into build container
 COPY . .
