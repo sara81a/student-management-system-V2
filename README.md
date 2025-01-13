@@ -22,19 +22,14 @@ Before you begin, ensure you have the following installed:
 
 ---
 
-### **Setup**
+### **Setup and run**
 
 1. Clone the repository:
-   git clone https://github.com/<your-username>/student-management-system.gitcd student-management-system.
-
----
-
-1. jaja
-2.dddd
-
-
-
-
-
-
+git clone https://github.com/<your-username>/student-management-system.gitcd student-management-system.
+2. Build the Docker images:
+docker-compose build
+3.Run the application:
+docker-compose up
+4. Access the application in your browser at:
+http://localhost:8080
 
