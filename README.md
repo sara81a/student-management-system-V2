@@ -6,10 +6,7 @@ This is a web application built using **Java**, **Spring Boot**, **Thymeleaf**, 
 
 ##  **Features**
   - **View All Students**: See a list of all registered students.
-  - **Add a New Student**: Add students by providing their details:
-  - **First Name**
-  - **Last Name**
-  - **Email**
+  - **Add a New Student**: Add students by providing(first name , last name , email)
   - **Edit Student Information**: Update student details.
   - **Delete a Student**: Remove student records.
   - **View Detailed Information**: View complete details of individual students.
@@ -32,7 +29,6 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/<your-username>/student-management-system.git
    cd student-management-system
 
-   2.
 ---
    ### **Run the Application**
    
@@ -40,8 +36,10 @@ Before you begin, ensure you have the following installed:
    Run the following command to build the required Docker images:
 ```bash
 docker-compose build
- 2. Start the Application
-3. Access the Application
+   2. Build the Docker images:
+   3. Build the Docker images:
+
+
 
 
 
