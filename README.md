@@ -26,9 +26,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/<your-username>/student-management-system.git
-   cd student-management-system
-
+   git clone https://github.com/<your-username>/student-management-system.gitcd student-management-system
 ---
 1. jaja
 2.dddd
