@@ -4,8 +4,8 @@ services:
     image: mysql:8.0
     container_name: mysql
     environment:
-      MYSQL_DATABASE: sms
-      MYSQL_ROOT_PASSWORD: sara1234  # Root password for MySQL
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD} # Root password for MySQL
     ports: #forwards the traffic 3307 to 3306 mysql container
       - '3307:3306'   # Host port(my computer connect to localhost:3307): Container port(mysql)
     volumes:  #volumes for container
@@ -25,9 +25,9 @@ services:
       - '8080:8080'  # Host port : Container port
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/sms
-      SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: sara1234
-      MYSQL_ROOT_PASSWORD: sara1234
+      SPRING_DATASOURCE_USERNAME: ${SPRING_DATASOURCE_USERNAME}
+      SPRING_DATASOURCE_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     depends_on:
       - mysql
       #mysql:
