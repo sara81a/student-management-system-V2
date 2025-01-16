@@ -12,11 +12,7 @@ services:
       - mysql-data:/var/lib/mysql    #the name of volume is mysql-data , mysql store the info in path /var/lib/mysql
     networks:   #networks that container will connect to
       - springboot-mysql #name of network springboot-mysql to communicate
-#    healthcheck:
-#        test: [ "CMD-SHELL", "mysqladmin ping -h localhost -p${MYSQL_ROOT_PASSWORD} || exit 1" ]
-#        interval: 10s
-#        timeout: 5s
-#        retries: 3
+
 
   app:
     build: .
@@ -30,8 +26,6 @@ services:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     depends_on:
       - mysql
-      #mysql:
-        #condition: service_healthy
     volumes:
       - app-data:/app/uploads
     networks:
