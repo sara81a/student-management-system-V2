@@ -31,6 +31,7 @@ services:
     networks:
       - springboot-mysql
 
+
 volumes:  #Global Volumes
   mysql-data: {}
   app-data: {}
