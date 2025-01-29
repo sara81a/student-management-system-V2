@@ -12,7 +12,8 @@ COPY . .
 RUN mvn clean install  -DskipTests
 
 
-#FROM openjdk:21-jdk-slim this depreacated
+#FROM openjdk:21-jdk-slim
+#this depreacated
 #use eclipse-temurino openjdk 21
 FROM eclipse-temurin:21
 
